@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User writes valid information",
+        "description": "",
+        "id": "...;user-writes-valid-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 256872473,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have log entries",
+            "match": {
+              "location": "StepDefinitions.I_have_log_entries()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107885177,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter a person information correctly:",
+            "match": {
+              "location": "StepDefinitions.I_enter_a_person_information_correctly(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "lastname",
+                  "weight",
+                  "height"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "felipe",
+                  "Schmidt",
+                  "70",
+                  "170"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 210812,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see an updated table",
+            "match": {
+              "location": "StepDefinitions.I_see_an_updated_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 543712,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have a new entry",
+            "match": {
+              "location": "StepDefinitions.I_have_a_new_entry()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "...",
+    "description": "",
+    "id": "...",
+    "keyword": "Feature",
+    "uri": "AddNewPerson.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User adds and confirms the information about himself",
+        "description": "",
+        "id": "person-overview;user-adds-and-confirms-the-information-about-himself",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "the person overview interface",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click the button without fill in the texts areas",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "an error dialog should appear",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Person Overview",
+    "description": "As an user\nI want to click on the button to add and confirm\nBecause I want to add some informations",
+    "id": "person-overview",
+    "keyword": "Feature",
+    "uri": "AddNullInformations.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User writes invalid information",
+        "description": "",
+        "id": "...;user-writes-invalid-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96057,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have log entries",
+            "match": {
+              "location": "StepDefinitions.I_have_log_entries()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 390460,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter a person information:",
+            "match": {
+              "location": "StepDefinitions.I_enter_a_person_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "lastname",
+                  "weight",
+                  "height"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "felipe",
+                  "Schmidt",
+                  "abc",
+                  "170"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192480,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see an error",
+            "match": {
+              "location": "StepDefinitions.I_see_an_error()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145919,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have no entries",
+            "match": {
+              "location": "StepDefinitions.I_have_no_entries()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "...",
+    "description": "",
+    "id": "...",
+    "keyword": "Feature",
+    "uri": "GiveWrongField.feature"
+  }
+]
